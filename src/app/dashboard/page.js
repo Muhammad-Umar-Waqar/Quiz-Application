@@ -256,7 +256,7 @@ const Dashboard = () => {
       <h1 className="text-2xl font-bold mb-4">Dashboard</h1>
       {user && (
         <div>
-          <p>Welcome, {user.name}!</p>
+          <p>Hi, Welcome, {user.name}!</p>
           {/* Add more dashboard functionality here */}
         </div>
       )}
