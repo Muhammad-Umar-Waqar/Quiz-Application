@@ -76,6 +76,9 @@ const AttemptQuizPage = () => {
   return (
     <div>
       <h1 className="text-2xl font-bold mb-4">{quiz.name}</h1>
+      <p>
+        Hi, Welcome to your Quiz Good Luck!
+      </p>
       <p>Assigned By: {quiz.assignedBy?.name}</p> {/* Display the name of the user who assigned the quiz */}
       {questions?.map((question) => (
         <div key={question._id} className="mb-4">
